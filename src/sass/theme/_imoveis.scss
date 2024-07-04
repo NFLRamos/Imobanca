@@ -1,0 +1,24 @@
+.tema-imoveis{
+    margin-top:140px;
+}
+.tema-search-imoveis{
+    .searchandfilter .noUi-connect{
+      background-color: $primary !important;  
+    }
+    .searchandfilter ul{
+      color: $primary;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+      @extend .btn;
+      @extend .btn-outline-primary;
+    }
+    .searchandfilter select.sf-input-select{
+      border-radius: 5px;
+      color: $primary;
+    }
+}
+.btn-primary:hover{
+  background-color:$second;
+  border-color:$second;
+  transition:.5s;
+}

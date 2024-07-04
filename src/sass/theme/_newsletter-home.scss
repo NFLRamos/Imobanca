@@ -1,0 +1,156 @@
+.tema-news {
+
+	.row-back{
+		background-color: #EFEFF1; 
+		border:1px solid transparent; 
+		border-radius: 20px;
+	}
+	.h2-t{
+		font-size:24px;
+		line-height: 32px;
+		font-weight: 600;
+		color:black;
+	}
+	.p-t{
+		font-size:16px;
+		line-height: 23px;
+		font-weight: 400;
+		color:#858585;
+	}
+
+
+	.frame {
+		height: 58px;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		background-color: white;
+		width: 100%;
+		text-align: center;
+		margin-bottom:20px;
+		&:hover{
+			//background-color: $primary;
+			color:$primary;
+			transition: 0.5s;
+		}
+		&:active{
+			//background-color: $primary;
+			color:$primary;
+		}
+		&:focus{
+			//background-color: $primary !important;
+			color:$primary !important;
+		}
+		&:target{
+			//background-color: $primary;
+			color:$primary;
+		}
+		input:-internal-autofill-selected{
+			background-color: transparent;
+		}
+	}
+	@media (min-width:768px) {
+		.frame {
+			margin-bottom:unset;
+			width: 90%;
+			text-align: unset;
+		}
+	}
+	.frame_after{
+		//background-color: $primary;
+		color:$primary;
+	}
+	.texto-frame {
+		padding-left: 10px;
+		font-size: 20px;
+		color: #041f39;
+		font-weight: 600;
+	}
+	.btn-light {
+		background-color: #dee2e6;
+		border-color: #dee2e6;
+	}
+	.btn-light:hover {
+		color: white;
+		background-color: #041f39;
+		border-color: #041f39;
+	}
+
+	//contact form classes
+	.wpcf7 .wpcf7-not-valid-tip{
+		display: none;
+	}
+	.wpcf7 form.invalid .wpcf7-response-output{
+		margin-top:-50px;
+		border-color:#dc3545 !important;
+		background-color: #dc3545;
+		border-radius: 5px;
+		color: white;
+	}
+	.wpcf7 input[type="email"] {
+		border: none;
+		max-width: 400px;
+		float: left;
+		//padding-top: 17px;
+		background-color: transparent;
+		color: #6c757d;
+		font-weight: 400;
+		font-size: 16px;
+		&:hover{
+			//background-color: $primary;
+			color:#041f39;
+			transition: 0.5s;
+		}
+		&:active{
+			//background-color: $primary;
+			color:#041f39;
+		}
+		input:-internal-autofill-selected{
+			background-color: transparent;
+		}
+	}
+	.wpcf7 input[type="email"]:focus {
+		box-shadow: none !important;
+	}
+	.wpcf7 input[type="submit"] {
+		max-width: 100px;
+		float: right;
+		position: relative;
+		margin-top: -85px;
+		margin-right: -12px;
+		background-color: $darkblue;
+		border-color: $darkblue;
+		color:white;
+		font-weight: 600;
+		height: 58px;
+		font-size: 14px;
+		border-radius: 0px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	@media (min-width:1200px) {
+		.wpcf7 input[type="submit"] {
+			max-width: 200px;	
+		}
+		
+	}
+	.wpcf7 input[type="submit"]:hover {
+		color: white;
+    background-color: $second;
+    border-color: $second;
+	&:focus{
+		box-shadow:0 0 0 0.25rem 0 0 0 0.25rem rgb(4 31 57 / 0%) !important;
+	}
+	}
+	.alinhamento-logo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	@media (min-width: 768px) {
+		.alinhamento-logo {
+			display: flex;
+		flex-direction: column;
+		justify-content: center;
+		}
+	}
+}

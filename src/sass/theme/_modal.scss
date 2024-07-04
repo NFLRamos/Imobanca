@@ -1,0 +1,87 @@
+.modal{
+        z-index: 9999;
+        top:0;
+    }
+    @media (min-width:768px) {
+        .modal{
+            z-index: 9999;
+            top:150px;
+        }
+    }
+.classe-modal{
+    
+    .caixa-modal{
+        width: unset;
+        padding:15px;
+    }
+    @media (min-width:992px) {
+        .caixa-modal{
+            width: 730px;
+            padding:unset;
+            padding-top: 5px;
+            right:10%;
+        }
+    }
+    .modal-header{
+        border:unset !important;
+    }
+    .wpcf7 textarea{
+        min-height: 85px !important;
+        max-height: 85px !important;
+        background-color: transparent;
+        border: unset;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 input[type=text]{
+        background-color: transparent;
+        border: unset;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 input[type=email]{
+        background-color: transparent;
+        border: unset;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 select{
+        background-color: transparent;
+        border: unset;
+        appearance: auto;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 input[type=submit]{
+        height:55px;
+        font-weight: 600;
+        &:hover{
+            transition: 0.5s;
+        }
+    }
+    .labels-style{
+        font-size:20px;
+        font-weight: 600;
+        color: $primary;
+    }
+}

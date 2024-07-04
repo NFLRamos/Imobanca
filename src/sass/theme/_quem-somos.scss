@@ -1,0 +1,97 @@
+.tema-quem-somos {
+	// Slick consultores
+	@media (min-width: 992px) {
+		
+	
+	[data-slick-index="1"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="2"]{
+		margin-top: 50px;
+	}
+	
+	[data-slick-index="4"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="5"]{
+		margin-top: 50px;
+	}
+
+	[data-slick-index="7"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="8"]{
+		margin-top: 50px;
+	}
+
+	[data-slick-index="10"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="11"]{
+		margin-top: 50px;
+	}
+	[data-slick-index="13"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="14"]{
+		margin-top: 50px;
+	}
+	[data-slick-index="16"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="17"]{
+		margin-top: 50px;
+	}
+	[data-slick-index="19"]{
+		margin-top: 25px;
+	}
+
+	[data-slick-index="20"]{
+		margin-top: 50px;
+	}
+	.alinhamento{
+		text-align: unset;
+	}
+}
+.alinhamento{
+	text-align: -webkit-center;
+}
+	// resto
+	@media (min-width:768px) {
+		.margem-titulo {
+		margin-bottom: -40px;
+	}
+	.texto-ali{
+		text-align: right;
+	}
+	}
+	
+	.btn-light {
+		color: #041f39;
+		background-color: transparent;
+		border-color: #d4e5f5;
+		width: 180px;
+		height: 45px;
+		font-weight: 600;
+		padding-top: 10px;
+	}
+	.btn-light:hover{
+		background-color: #d4e5f5 !important;
+		border-color: #d4e5f5 !important;
+	}
+	.btn-primary {
+		color: #fff;
+		background-color: #041f39;
+		border-color: #041f39;
+		width: 180px;
+		height: 45px;
+		font-weight: 600;
+		padding-top: 10px;
+	}
+}

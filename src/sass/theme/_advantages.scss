@@ -1,0 +1,118 @@
+.text-amarelo-g{
+    color:$yellow; 
+    font-weight: 600;
+}
+
+.add_advan{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    img{
+        height: 100%;
+        width: 15%;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        color:#293039;
+        font-size: 42px;
+        line-height: 50px;
+        font-weight: 700;
+    }
+    h3{
+        font-size:24px;
+        font-weight: 700;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.add_slick{
+    .slick-initialized .slick-slide {
+        padding-right:10px;
+        padding-left:10px;
+    }
+}
+.card-col-format{
+    min-height:450px;
+    .img-icon{
+        width: 60px;
+        height: 75px;
+        background: url("../assets/icon1.png") no-repeat;
+        background-size: contain;
+        margin: auto;
+
+    }
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    margin-top:20px;
+    img{
+        height: 100%;
+        width: 15%;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        color:#293039;
+        font-size: 42px;
+        line-height: 50px;
+        font-weight: 700;
+    }
+    h3{
+        font-size:22px;
+        font-weight: 700;
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    &:hover{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: $primary;
+        translate: 0px -20px;
+        transition: 0.5s;
+        .img-icon{
+            width: 60px;
+            height: 75px;
+            background: url("../assets/icon2.png") no-repeat;  
+            background-size: contain;
+            margin: auto;
+            transition: 0.5s;      
+        }
+        
+        img{
+            height: 100%;
+            width: 15%;
+            margin: auto;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            font-size: 42px;
+            line-height: 50px;
+            font-weight: 700;
+            transition:0.5s;
+        }
+        h3{
+            font-size:22px;
+            font-weight: 700;
+            text-align: center;
+            color:white;
+            transition:0.5s;
+        }
+        p{
+            font-size: 18px;
+            text-align: justify;
+            color:white;
+            transition:0.5s;
+        }
+    }
+}
+
+
+

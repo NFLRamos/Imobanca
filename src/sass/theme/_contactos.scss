@@ -1,0 +1,202 @@
+.tema-contactos {
+	.la-whatsapp {
+		font-size: 30px;
+	}
+    .la-phone{
+        font-size:30px;
+    }
+    .la-map-marker{
+        font-size:30px;
+    }
+    .contact-form{
+        margin-top:-190px; 
+        //height:600px;
+        width:100%; 
+        background-color: #F0F0F0; 
+        border-radius:22px;
+    }
+    @media (max-width:768px) {
+        .contact-form{
+            margin-top: 30px; 
+            //height:600px;
+            width:100%; 
+            background-color: #F0F0F0; 
+            border-radius:20px;
+        }
+    }
+    .barra-div{
+        float:right; 
+        width:1px; 
+        height:20px; 
+        background-color:$primary;
+        margin-top: -25px;
+    }
+    .tabs-contactos{
+        width:33.33333333333333%; 
+        height:70px; 
+        cursor:pointer;
+    }
+    .tabs-contactos:hover{
+        background-color: $primary;
+        color:white !important;
+        transition: 0.5s;
+    }
+    li{
+        list-style-type: none;
+    }
+    .nav-tabs{
+        height: 75px;
+        background-color: $primary;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .nav-tabs .nav-link.active {
+        color: white !important;
+        background-color: $primary !important;
+        border-color: $primary !important;
+        height: 57px;
+        align-items: center;
+        font-size:22px;
+    }
+    @media (max-width:768px) {
+        .nav-tabs .nav-link.active {
+            font-size:18px;
+            font-weight: 600;
+        }
+    }
+    .nav-tabs .nav-link:hover{
+        border-color: transparent !important;
+    }
+    .card-contact-info{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-direction: column;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+        margin-top: 65px;
+        min-height: 300px;
+        padding: 30px;
+        .card-line-c{
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            //align-items: baseline;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        .icon-contact-call{
+            background: url("../assets/call.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 22px;
+            margin-right: 10px;
+            //margin: auto;
+        }
+        .icon-contact-mail{
+            background: url("../assets/mail.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 22px;
+            margin-right: 10px;
+            //margin: auto;
+        }
+        .icon-contact-time{
+            background: url("../assets/time.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 22px;
+            margin-right: 10px;
+            //margin: auto;
+        }
+        .icon-contact-pin{
+            background: url("../assets/pin.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 22px;
+            margin-right: 10px;
+            //margin: auto;
+        }
+        h2{
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            margin-right:10px;
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+    @media (max-width:768px) {
+        .card-contact-info{
+            margin-top:unset;
+        }
+    }
+
+    // contact forms
+
+    .wpcf7 textarea{
+        min-height: 85px !important;
+        max-height: 85px !important;
+        background-color: transparent;
+        border: unset;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 input[type=text]{
+        background-color: transparent;
+        border: unset;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 input[type=email]{
+        background-color: transparent;
+        border: unset;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 select{
+        background-color: transparent;
+        border: unset;
+        appearance: auto;
+        border-bottom: 2px solid $primary;
+        border-radius: unset;
+        color: #1e1e1ed1;
+        font-weight: 500;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+    .wpcf7 input[type=submit]{
+        height:55px;
+        font-weight: 600;
+        &:hover{
+            transition: 0.5s;
+        }
+    }
+    .labels-style{
+        font-size:20px;
+        font-weight: 600;
+        color: $primary;
+    }
+}

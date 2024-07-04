@@ -1,0 +1,26 @@
+.tema-procura{
+
+    .cor-texto{
+        color: $darkblue;
+    }
+    .cor-texto2{
+        color: $darkblue;
+        opacity: 0.8;
+    }
+
+    .btn-primary{
+        width: 180px;
+    height: 50px;
+    padding-top: 10px;
+    font-weight: 600;
+    }
+}
+
+.display-colunas-call{
+    display: none;
+}
+@media (min-width: 768px) {
+    .display-colunas-call{
+        display: block;
+    }
+}

@@ -1,0 +1,73 @@
+.realestatecard{
+    .fraction{
+        font-size:20px; 
+        vertical-align: super; 
+        font-weight:600;
+    }
+    .thumbholder{
+        position: relative;
+        .thumbrealestate{
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            width:100%;
+            height: 200px;
+            object-fit: cover;
+            &:hover{
+                filter: brightness(0.7);
+                transition: 0.3s;
+            }
+        }
+        .energylabel{
+            position: absolute;
+            width:auto;
+            z-index:9;
+            margin-left: 20px;
+            margin-top: -45px;
+            .labelText{
+                display:block;
+                height:20px;
+                //background: red;
+                padding-left:10px;
+                font-size:12px;
+                color: #ffF;
+                float:left;
+                width: 30px;
+                font-weight: 600;
+            }
+            .shapeenergy {
+                display: block;
+                float:left;
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                //border-left: 15px solid red;
+                border-bottom: 10px solid transparent;
+            }
+        }
+    }
+    .infocard{
+        position: relative;
+        background-color: #fcfcfc ;
+        border: 1px solid #f4f5f8;
+        padding: 20px 20px 20px 20px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        .state{
+            display: inline-block;
+            padding:5px 5px 5px 5px;
+            text-align: center;
+            min-width: 30%;
+            font-size:12px;
+            color: #041f39;
+            background-color: #ebedf2;
+            &:hover{
+              font-weight: 600;
+              cursor:default;
+            }
+        }
+        .location{
+            font-size:12px;
+            font-weight: bolder;
+        }
+    }
+}

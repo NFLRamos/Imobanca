@@ -1,0 +1,101 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import "realestate";    // <-------- Contact Form 7 - Bootstrap 4 support
+
+.paginacao{
+    font-size: 20px;
+    margin-top: 1.5rem;
+    a{
+        text-decoration: none;
+        font-size: 18px;
+        margin:0 5px;
+    }
+    a:hover{
+        //font-weight: 600;
+    }
+    .pagination{
+        justify-content: space-around;
+    }
+    .current{
+        text-decoration: underline;
+    }
+}
+
+.navbar-brand{
+    img{
+        width:auto;
+        height:70px !important;
+    }
+}
+@media (max-width:768px) {
+    .navbar-brand{
+        img{
+            width:auto;
+            height:35px !important;
+        }
+    }
+}
+.iconHolder{
+    width:38px;
+    height: 38px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 100%;
+    background-color: #dbedff;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+.bgBlueG{
+    background: rgb(16,50,82);
+    background: radial-gradient(circle, rgba(16,50,82,1) 0%, rgba(15,31,48,1) 100%);
+}
+.titulo-paginas{
+    align-self: flex-end;
+    font-weight: 600;
+    margin-left: 50px;
+    font-size: 80px;
+    color:white;
+}
+@media (max-width: 768px){
+    .titulo-paginas{
+        align-self: flex-end;
+        font-weight: 600;
+        margin-left: 50px;
+        font-size: 50px;
+        color:white;
+    }
+}
+.chamada-casas{
+    text-align: center; 
+    background-color: #eaeeef; 
+    height:150px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+}
+//error message from contact form
+.wpcf7 form.invalid .wpcf7-response-output{
+    border-color:#dc3545 !important;
+    background-color: #dc3545;
+    border-radius: 5px;
+    color: white;
+}
+
+//scroll bar
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $primary; 
+    border-radius: 5px;
+  }
+
+
+ 
+  

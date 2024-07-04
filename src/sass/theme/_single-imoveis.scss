@@ -1,0 +1,55 @@
+.show-bizz{
+    display: none;
+    &:nth-child(1){
+        display: block;
+    }
+}
+@media (max-width: 991px){
+   .display-mobile-galeria{
+    display:flex;
+    }
+.display-desktop-galeria{
+    display: none;
+    } 
+}
+
+@media (min-width: 992px) {
+    .display-desktop-galeria{
+        display: flex;
+    }
+    .display-mobile-galeria{
+        display: none;
+    }
+}
+.alinhamento-fotos{
+    align-self: end;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    position: absolute;
+}
+.lb-data .lb-caption{
+    font-size: 30px !important;
+}
+.tema-single-imoveis{
+    //margin-top:150px;
+    .frame-left{
+        border:1px solid #dee2e6; 
+        border-radius:10px; 
+        //height:60px;
+    }
+    .div-icon-left{
+        //font-size:45px; 
+        position:relative; 
+        width:10%; 
+        padding: 10px;
+    }
+    .infocard{
+        border: unset !important;
+    }
+}
+
+.sf-field-post-meta-zonas_envolventes{
+    color: red !important;
+    
+}

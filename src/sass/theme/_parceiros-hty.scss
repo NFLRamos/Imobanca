@@ -1,0 +1,53 @@
+.tema-parceiros{
+    .btn-light{
+        width: 200px !important;
+        background-color: $primary;
+        color:white;
+        border:1px solid;
+        border-radius:5px;
+        height: 40px;
+        font-weight: 600;
+        padding-top: 6px;
+        font-size:14px;
+        &:hover{
+            background-color: $second;
+        }
+    }
+    .card-parceiros{
+        border: 1px solid white; 
+        border-radius: 20px;
+        background-color:white; 
+        min-height: 185px;
+        padding-top: 15px;
+    }
+    img{
+        margin:auto;
+        width:25%;
+        object-fit: contain;
+    }
+
+
+    .slick-dots button{
+        width:45px !important;
+        height:10px !important;
+        border-radius: 5px !important;
+        background-color: #D9D9D9 !important;
+    }
+    .slick-dots li.slick-active button{
+        background-color: $primary !important;
+        border: none!important;
+    }
+    .slick-dots li{
+        width: unset !important;
+        height: unset !important;
+    }
+    
+}
+.largura-par{
+        width: 100%;
+    }
+    @media (min-width:1200px) {
+        .largura-par{
+            width: 25%;
+        }
+    }
